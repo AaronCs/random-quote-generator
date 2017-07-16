@@ -1,0 +1,68 @@
+a, a:hover {
+  text-decoration: none;
+}
+
+body {
+  background: #E48965;
+  /* Background eventually be changed through js */
+}
+
+h1, h2, h3, h4 {
+  font-family: 'raleway', sans-serif;
+}
+
+h1 {
+  font-weight: bolder;
+}
+
+#heading {
+  margin: 6em auto 3em auto;
+  text-align: center;
+  color: black;
+}
+
+.quote-box {
+/*   background: #65C0E4; Might want to think about what background to use. */
+  background: white;
+  border-radius: 5px;
+  margin: 10em auto 10em auto; /* Big margin */
+  padding: 4em;
+  width: 40em;
+}
+
+.content-box {
+  font-family: 'montserrat', sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.content-author-box {
+  padding-left: 20em;
+  font-size: 0.5em;
+}
+
+.color {
+  color: #E48965;
+}
+
+.button-quote {
+  float: right
+}
+
+.tumblr, .twitter {
+  width: 1em;
+}
+
+.fa {
+  color: white;
+}
+
+.share, .button-quote {
+  background: #E48965;
+}
+
+.share:hover, .button-quote:hover {
+  background: black;
+}
